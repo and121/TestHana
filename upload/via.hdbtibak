@@ -1,0 +1,9 @@
+import = [
+            {
+                table = "GESTION_CREDITICIA_PACKAGE_QAS.data::master.VIA";
+                schema = "GESTION_CREDITICIA_SCHEME_QAS";
+                file = "GESTION_CREDITICIA_PACKAGE_QAS.upload:via.csv"; 
+                header = true; 
+                delimField = ","; 
+            }     
+];    
