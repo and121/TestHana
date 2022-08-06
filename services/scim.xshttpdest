@@ -1,0 +1,10 @@
+description = "Cloud Identify";
+host = "argf04rxd.accounts.ondemand.com";
+port = 443;
+proxyType = none;
+proxyHost = "proxy";
+proxyPort = 443;
+authType = basic;
+useSSL = true;
+sslHostCheck = true;
+sslAuth = client;

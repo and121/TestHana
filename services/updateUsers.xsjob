@@ -1,0 +1,10 @@
+{
+    "description": "Job Act Usuarios Gestion Crediticia Affinity 2.0",
+    "action": "GESTION_CREDITICIA_PACKAGE_QAS.services:jobActualizaUsuariosIAS.xsjs::getUsuariosAffinityPeru",
+    "schedules": [
+       {
+          "description": "Actualizar Usuarios Gestion Crediticia 2.0",
+          "xscron": "* * * * * */5 0"
+       }
+    ]
+} 

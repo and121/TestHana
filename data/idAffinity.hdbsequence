@@ -1,0 +1,8 @@
+schema= "GESTION_CREDITICIA_SCHEME_QAS";
+start_with= 1;//1000
+maxvalue= 1999999999;
+nomaxvalue=false;
+minvalue= 1;
+nominvalue=true;
+cycles= true;
+depends_on_table= "GESTION_CREDITICIA_PACKAGE_QAS.data::quotation.QUOTATION";

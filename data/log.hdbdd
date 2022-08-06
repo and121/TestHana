@@ -1,0 +1,24 @@
+namespace GESTION_CREDITICIA_PACKAGE_QAS.data;
+
+
+@Schema: 'GESTION_CREDITICIA_SCHEME_QAS'
+ 
+ 
+context log{
+    entity LOG {
+        key ID_LOG  : Integer;
+        ID_AFFINITY : Integer;//
+        DATE        : UTCTimestamp;//
+        MONTH       : String(2);//
+        YEAR        : Integer;//5
+        APPLICATION : String(100);//
+        FUNCTION    : String(100);//
+        TYPE        : String(10);//
+        ORIGIN      : String(100);//9
+        CPI_ID      : String(50);
+        CODE        : String(100);
+        CONTENT     : String(2000);
+        IDSALESFORCE: String(50);
+    };
+
+};
